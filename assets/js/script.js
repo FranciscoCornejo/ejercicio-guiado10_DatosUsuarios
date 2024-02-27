@@ -55,8 +55,8 @@ function mostrarUsuarios(usuarios) {
     divTarjeta.append(imgElemento, divCuerpo);
 
     // Agregar la tarjeta al contenedor
-    fila.appendChild(divTarjeta);
-    contenedorDatos.appendChild(fila);
+    fila.append(divTarjeta);
+    contenedorDatos.append(fila);
   });
 }
 
